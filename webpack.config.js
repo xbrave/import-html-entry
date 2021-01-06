@@ -8,7 +8,8 @@ module.exports = {
     libraryTarget: 'umd',
 		path: path.resolve(__dirname, "dist"),
 		filename: "import-html-entry.js",
-	},
+  },
+  devtool: 'cheap-source-map',
 	module: {
 		rules: [
 			{
